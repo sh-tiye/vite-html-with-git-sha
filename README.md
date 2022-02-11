@@ -45,3 +45,32 @@ Gets in `index.html`:
 - https://stackoverflow.com/questions/68180648/string-replacements-in-index-html-in-vite
 - https://stackoverflow.com/questions/64014694/git-describe-npm-not-providing-tag-information
 - https://www.npmjs.com/package/git-describe
+
+Data from Git:
+
+```js
+{
+  dirty: false,
+  raw: '0.0.1-1-gce95b26',
+  hash: 'gce95b26',
+  distance: 1,
+  tag: '0.0.1',
+  semver: SemVer {
+    options: {
+      loose: false,
+      includePrerelease: false
+    },
+    loose: false,
+    raw: '0.0.1',
+    major: 0,
+    minor: 0,
+    patch: 1,
+    prerelease: [],
+    build: [],
+    version: '0.0.1'
+  },
+  suffix: '1-gce95b26',
+  semverString: '0.0.1+1.gce95b26',
+  toString: [Function (anonymous)]
+}
+```
